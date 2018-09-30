@@ -8,12 +8,12 @@ const {
   ipcMain,
   BrowserWindow
 } = require('electron');
-const configBuilder = require('./config');
+const configBuilder = require('../config');
 
 const DEFAULT_WINDOW_WIDTH = 800;
 const DEFAULT_WINDOW_HEIGHT = 800;
 
-const Menus = require('./menus');
+const Menus = require('../menus');
 
 let menus;
 
@@ -48,7 +48,7 @@ function createWindow(iconPath) {
 }
 
 app.on('ready', () => {
-  const iconPath = path.join(app.getAppPath(), 'lib/assets/icons/icon-96x96.png');
+  const iconPath = path.join(app.getAppPath(), '/assets/icons/24x24.png');
   const window = createWindow(iconPath);
   const config = configBuilder(app.getPath('userData'));
 
