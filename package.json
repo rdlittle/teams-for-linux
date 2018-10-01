@@ -30,18 +30,11 @@
         "packageManager": "npm",
 		"icon": "assets/icon/24x24.png"
       },
-      "electronWinstallerConfig": {
-        "name": "teams"
-      },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
         "owner": "",
         "name": ""
-      },
-      "windowsStoreConfig": {
-        "packageName": "",
-        "name": "teams"
       }
     }
   },
