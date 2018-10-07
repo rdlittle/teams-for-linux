@@ -13,22 +13,22 @@
     "lint": "eslint src --color"
   },
   "keywords": [
-  		"Teams",
-  		"Microsoft Teams"
-	],
+    "Teams",
+    "Microsoft Teams"
+  ],
   "author": "Ivelin Velkov <ivelin.velkov@gmail.com>",
   "license": "SEE LICENSE IN LICENSE.md",
   "config": {
     "forge": {
       "make_targets": {
         "linux": [
-		  "rpm",
+          "rpm",
           "deb"
         ]
       },
       "electronPackagerConfig": {
         "packageManager": "npm",
-		"icon": "assets/icon/24x24.png"
+        "icon": "assets/icon/24x24.png"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
