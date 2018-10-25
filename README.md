@@ -14,7 +14,7 @@ If you clone this project and find that it works on your system, great!  If not,
 
 ## Install
 
-You can download the tarball, rpm, deb or pacman from the [releases page](https://github.com/ivelkov/teams-for-linux/releases).
+You can download the tarball, rpm, deb or pacman from the [releases page](https://github.com/rdlittle/teams-for-linux/releases).
 
 ## Run from source
 
